@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Open+Sans&family=Roboto:wght@700&display=swap');
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;   
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    top:0px;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    z-index: 100;
+}
+
+#icon{
+    display: inline-block;
+    margin-top: 48px;
+    margin-left:52px; 
+    transform: scale(0.85);
+}
+
+#top-text{
+    letter-spacing: 2px;
+    font-size: 325%;
+    text-align: center;
+    margin-left: -2.5px;
+    color: rgba(51,51,51,255);
+    transform: scale(1.27, 1);
+}
+
+.right-line{
+    position: fixed;
+    width: 356px;
+    top: 400px;
+    text-align: center;
+    right: -75px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #333;
+    transform: rotate(90deg);
+    z-index: -10;
+}
+
+.line{
+    display: inline-block;
+    border: 1px solid black;
+    width: 140px;
+    margin: 0 20px;
+
+}
+
+.main-video iframe{
+    width: 1100px;
+    height: 619px;
+    margin-top: 92px;
+    
+}
+
+.video-content{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.vid-selected{
+    position: relative;
+    margin: 0 10px 0 0;
+}
+
+.imgcon{
+    background-color: black;
+}
+
+.imgcon img{
+    width: 360px;  
+    height: 200px;
+    z-index: 10;
+}
+
+.imgcon img:hover{
+    z-index: -10;
+    opacity: 0.5;
+}
+
+.vid-selected p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    margin-top: 19px;
+    font-size: 95%;
+
+}
+
+.vid-selected span{
+    position: absolute;
+    z-index: 1;
+    top: 226px;
+    right: 0;
+    font-size: 9pt;
+    color: #484848;
+}
+
+.change{
+    text-align: center;
+    transform: scale(0.5);
+    margin-top: 37px;
+}
+
+.btn-left, .btn-right{
+    display:inline-block;
+    position: relative;
+    top: -10px;
+    cursor:pointer;
+    border:none;
+}
+
+.page{
+    display:inline-block;
+    font-size: 200%;
+    margin: 0px 67px 0px 67px;
+    
+}
+
+.copyright{
+    font-size: 70%;
+    margin: 60px 60px 40px 0px;
+    float: right;
+}
+
+.contact{
+    position: fixed;
+    bottom: -275px;
+    transform: scale(0.4);
+}
+
+.contact img{
+    margin: 0px 0px 70px 55px;
+}
