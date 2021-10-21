@@ -143,4 +143,5 @@ body{
 
 .contact img{
     margin: 0px 0px 70px 55px;
+    cursor:pointer;
 }
