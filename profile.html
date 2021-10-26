@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- <div class="header"> -->
+        <div class="row header">
+            <div class="col d-flex justify-content-between align-items-center">
+                <img src="logo.png" alt="ตราวง" width="43" height="43" class="m-sm-5">
+                <img src="menu_b.png" alt="เมนูบาร์" width="28" height="28" class="m-sm-5">
+            </div>
+        </div>
+    <!-- </div> -->
+    <div class="container-fluid d-flex justify-content-center align-item-center w-100 mix">
+        <div class="row w-100">
+            <div class="col-3 text-right">
+                <p class="distance mb-1" onclick="Yeji()">YEJI</p>
+                <p class="distance mb-1" onclick="lia()">LIA</p>
+                <p class="distance mb-1" onclick="ryujin()">RYUJIN</p>
+                <p class="distance mb-1" onclick="chaeryeong()">CHAERYEONG</p>
+                <p class="distance mb-1" onclick="yuna()">YUNA</p>
+            </div>
+            <div class="row col-8 d-flex align-items-center">
+                <div class="col">
+                    <img class="artist_jpg" id="yeji" src="yeji.jpg" width="455" height="580">
+                    <div class="artist_bg"></div>
+                   
+                </div>
+                <div class="col align-self-end ml-5">
+                    <h1 id="name">YEJI</h1>
+                    <p id="discription">이름: 예지<br>
+                    생년월일: 2000.5.26</p>
+                </br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="row">
+        <div class="col">
+            01 Profile
+        </div>
+    </div> -->
+    <div class="row d-flex justify-content-between w-100 footer align-items-center">
+            <div class="col social-media">
+                <img src="sns_instagram_b.png" width="20" height="20">
+                <img src="sns_twitter_b.png" width="20" height="20" class="ml-3">
+                <img src="sns_facebook_b.png" width="20" height="20" class="ml-3">
+                <img src="sns_youtube_b.png" width="20" height="20" class="ml-3">
+                <img src="sns_vlive_b.png" width="20" height="20" class="ml-3">
+                <img src="sns_weibo_b.png" width="20" height="20" class="ml-3">
+                <img src="sns_fans_b.png" width="20" height="20" class="ml-3">
+                <img src="sns_edm_b.png" width="20" height="20" class="ml-3">
+            </div>
+            <div class="col copy">
+                Copyright © JYP ENTERTAINMENT Co., Ltd. All rights reserved.
+            </div>
+    </div>
+    <script>
+        function Yeji(){
+            var img = document.getElementById("yeji");
+            var name_idol = document.getElementById("name");
+            var dis = document.getElementById("discription");
+            img.src = "yeji.jpg";
+            name_idol.innerHTML = "YEJI";
+            dis.innerHTML = "이름: 예지<br>생년월일: 2000.5.26"
+        }
+        function lia(){
+            var img = document.getElementById("yeji");
+            var name_idol = document.getElementById("name");
+            var dis = document.getElementById("discription");
+            img.src = "lia.jpg";
+            name_idol.innerHTML = "LIA";
+            dis.innerHTML = "이름: 리아<br>생년월일: 2000.7.21"
+        }
+        function chaeryeong(){
+            var img = document.getElementById("yeji");
+            var name_idol = document.getElementById("name");
+            var dis = document.getElementById("discription");
+            img.src = "chearyoung.jpg";
+            name_idol.innerHTML = "CHAERYEONG";
+            dis.innerHTML = "이름: 채령<br>생년월일: 2001.6.5"
+        }
+        function ryujin(){
+            var img = document.getElementById("yeji");
+            var name_idol = document.getElementById("name");
+            var dis = document.getElementById("discription");
+            img.src = "ryujin.jpg";
+            name_idol.innerHTML = "RYUJIN";
+            dis.innerHTML = "이름: 류진 <br> 생년월일: 2001.4.17"
+        }
+        function yuna(){
+            var img = document.getElementById("yeji");
+            var name_idol = document.getElementById("name");
+            var dis = document.getElementById("discription");
+            img.src = "yuna.jpg";
+            name_idol.innerHTML = "YUNA";
+            dis.innerHTML = "이름: 유나<br>생년월일: 2003.12.9"
+        }
+    </script>
+</body>
+</html>
+<!-- d-flex justify-content-center align-items-center -->
