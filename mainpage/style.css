@@ -190,3 +190,40 @@ hr{
     letter-spacing: 0.125em;
     color: rgb(187, 15, 15);
 }
+.video_bg{
+    position: fixed;
+    display: block;
+    z-index: 100000;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(34, 30, 26, 0.966);
+    overflow: hidden;
+    opacity: 80%;
+}
+iframe{
+    position: absolute;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 0.5vh;
+    z-index: 100001;
+    top: 7%;
+    left: 12%;
+}
+.img_video_close{
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    display: inline-block;
+    z-index: 100001;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    background-color: rgb(27, 27, 27);
+    transition: 0.5s;
+}
+.img_video_close:hover{
+    background-color: rgb(53, 53, 53);
+}
+#video{
+    display: none;
+}

@@ -40,12 +40,12 @@
             <img class="img_menu_close" src="https://itzy.jype.com/Content/Pc/images/common/btn_siteMenu_close.png">
         </button>
         <div class="menu_list">
-            <a class="link_menu" href="www.facebook.com" style="text-decoration: none;">PROFILE</a>
-            <a class="link_menu" href="www.facebook.com" style="text-decoration: none;">DISCOGRAPHY</a>
-            <a class="link_menu" href="www.facebook.com" style="text-decoration: none;">GALLERY</a>
-            <a class="link_menu" href="www.facebook.com" style="text-decoration: none;">VIDEO</a>
-            <a class="link_menu" href="www.facebook.com" style="text-decoration: none;">NOTICE</a>
-            <a class="link_menu" href="www.facebook.com" style="text-decoration: none;">SCHEDULE</a>
+            <a class="link_menu" href="/project/profile_itzy/profile.html" style="text-decoration: none;">PROFILE</a>
+            <a class="link_menu" href="/project/Discography_Page_1/index.html" style="text-decoration: none;">DISCOGRAPHY</a>
+            <a class="link_menu" href="/" style="text-decoration: none;">GALLERY</a>
+            <a class="link_menu" href="/project/Video/Video.html" style="text-decoration: none;">VIDEO</a>
+            <a class="link_menu" href="/" style="text-decoration: none;">NOTICE</a>
+            <a class="link_menu" href="/" style="text-decoration: none;">SCHEDULE</a>
         </div>
         <footer>
             <ul class="contact">
@@ -81,15 +81,22 @@
             </p>
         </footer>
     </nav>
+    <div id="video">
+        <div class="video_bg"></div>
+        <button id="close_vdo" onclick="CloseVideo()" type="button">
+            <img class="img_video_close" src="https://allsolve.net/wp-content/uploads/2018/05/closebutton.png">
+        </button>
+        <iframe id="iframe" width="1150px" height="650px" src="https://www.youtube.com/embed/MjCZfZfucEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <div class="container">
         <div class="background"></div>
         <div class="img_background"></div>
         <div class="play">
-            <a class="video" href="https://www.youtube.com/watch?v=MjCZfZfucEc">
+            <button id="open_vdo" class="video" onclick="OpenVideo()">
                 <div class="img_play">
                     <img src="https://lv2-cdn.azureedge.net/system/PLAY.png" style="width: 75px; height: 75px;">
                 </div>
-            </a>
+            </button>
         </div>
         <div class="right">
             <div class="new_album">
@@ -158,5 +165,6 @@
     </footer>
 </body>
 <script src="navbar.js"></script>>
+<script src="script.js"></script>>
 
 </html>
