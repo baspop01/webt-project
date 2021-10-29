@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>ITZY : Video</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div id="header">
+        <div id="icon">
+            <a href="index.html">
+                <image src="https://lv2-cdn.azureedge.net/itzy/0722616b57ef45499c09a60ea74c1286-WEB-MAINLOGO-b.png">
+                </image>
+            </a>
+        </div>
+        <div class="menu">
+            <div id="open_btn" onclick="OpenNav()"type="button" >
+                <img class="img_menu" src="https://itzy.jype.com/Content/Pc/images/common/menu_b.png">
+            </div>
+        </div>
+    </div>
+    <nav class="navbar" id="navbar" style="height: 100%">
+        <div class="icon_bar">
+            <a href="index.html">
+                <image src="https://lv2-cdn.azureedge.net/itzy/0722616b57ef45499c09a60ea74c1286-WEB-MAINLOGO-b.png">
+                </image>
+            </a>
+        </div>
+        <div onclick="OpenNav()" type="button">
+            <img class="img_menu_close" src="https://itzy.jype.com/Content/Pc/images/common/btn_siteMenu_close.png">
+        </div>
+        <div class="menu_list">
+            <a class="link_menu" href="/project/profile_itzy/profile.html" style="text-decoration: none;">PROFILE</a>
+            <a class="link_menu" href="/project/Discography_Page_1/index.html" style="text-decoration: none;">DISCOGRAPHY</a>
+            <a class="link_menu" href="/" style="text-decoration: none;">GALLERY</a>
+            <a class="link_menu" href="/project/Video/Video.html" style="text-decoration: none;">VIDEO</a>
+            <a class="link_menu" href="/" style="text-decoration: none;">NOTICE</a>
+            <a class="link_menu" href="/" style="text-decoration: none;">SCHEDULE</a>
+        </div>
+        <footer>
+            <ul class="contact_menu">
+                <li>
+                    <img alt="ig" src="https://itzy.jype.com/Content/Pc/images/common/sns_instagram_b.png">
+                </li>
+                <li>
+                    <img alt="twitter" src="https://itzy.jype.com/Content/Pc/images/common/sns_twitter_b.png">
+                </li>
+                <li>
+                    <img alt="facebook" src="https://itzy.jype.com/Content/Pc/images/common/sns_facebook_b.png">
+                </li>
+                <li>
+                    <img alt="youtube" src="https://itzy.jype.com/Content/Pc/images/common/sns_youtube_b.png">
+                </li>
+                <li>
+                    <img alt="vlive" src="https://itzy.jype.com/Content/Pc/images/common/sns_vlive_b.png">
+                </li>
+                <li>
+                    <img alt="weibo" src="https://itzy.jype.com/Content/Pc/images/common/sns_weibo_b.png">
+                </li>
+                <li>
+                    <img alt="fans" src="https://itzy.jype.com/Content/Pc/images/common/sns_fans_b.png">
+                </li>
+                <li>
+                    <img alt="edm" src="https://itzy.jype.com/Content/Pc/images/common/sns_edm_b.png">
+                </li>
+            </ul>
+            <p class="copyright_menu" style="color: black;">
+                Copyright ©
+                <span style="color: #009be6;">JYP</span>
+                ENTERTAINMENT Co., Ltd. All rights reserved.
+            </p>
+        </footer>
+    </nav>
+
+    <div class="right-line">
+        04
+        <div class="line"></div>
+        VIDEO
+    </div>
+
+    <div class="container">
+        <div id="top-text">
+            <br>
+            <br>
+                VIDEO
+        </div>
+        <div class="main-video" style="">
+            <iframe  src="https://www.youtube.com/embed/9oyodEkzn94" frameborder="0"></iframe>
+        </div>
+        <div class="main-video" style="display:none;">
+            <iframe  src="https://www.youtube.com/embed/tvTdg7sgsgU" frameborder="0"></iframe>
+        </div>
+        <div class="main-video" style="display:none;">
+            <iframe  src="https://www.youtube.com/embed/wTowEKjDGkU" frameborder="0"></iframe>
+        </div>
+        <div class="main-video" style="display:none;">
+            <iframe  src="https://www.youtube.com/embed/fE2h3lGlOsk" frameborder="0"></iframe>
+        </div>
+        <div class="video-content">
+            <div class="vid-selected"  onclick="change1()">
+                <div class="imgcon">
+                    <img alt="1" src="https://lv2-cdn.azureedge.net/itzy/841db4397a184ad1b152ad9c66d9b4a9-ITZY_SWIPE_%EB%B3%B8%ED%8E%B8_%EC%8D%B8%EB%84%A4%EC%9D%BC%20(1).jpg">
+                    <div class="imghov">
+                        <img src="https://lv2-cdn.azureedge.net/system/PLAY.png" style="width: 75px; height: 75px;">
+                    </div>
+                </div>
+                <p>ITZY(있지) “SWIPE” M/V
+                <span>2021-09-27</span>
+                </p>
+            </div>
+            <div class="vid-selected"  onclick="change2()">
+                <div class="imgcon">
+                    <img alt="2" src="https://lv2-cdn.azureedge.net/itzy/660e793baeeb424ba0153ffaa6bbe0e1-ITZY_LOCO%EB%B3%B8%ED%8E%B8_%EC%8D%B8%EB%84%A4%EC%9D%BC_%EB%A1%9C%EA%B3%A0_FIX%20(1).jpg">
+                    <div class="imghov">
+                        <img src="https://lv2-cdn.azureedge.net/system/PLAY.png" style="width: 75px; height: 75px;">
+                    </div>
+                </div>
+                <p>ITZY(있지) “LOCO” M/V
+                <span>2021-09-24</span>
+                </p>
+                
+            </div>
+            <div class="vid-selected"  onclick="change3()">
+                <div class="imgcon">
+                    <img alt="3" src="https://lv2-cdn.azureedge.net/itzy/5f419bcbaded4a3fadb73c80c4748e17-Guesswho-onlinecover-Eng-FIX_fans.jpg">
+                    <div class="imghov">
+                        <img src="https://lv2-cdn.azureedge.net/system/PLAY.png" style="width: 75px; height: 75px;">
+                    </div>
+                </div>
+                <p>ITZY(있지) "마.피.아. In the morning (English Ver.)" M/...
+                <span>2021-05-14</span>
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="change">
+            <div class="btn-left" onclick="">
+                <img src="https://itzy.jype.com/Content/Pc/images/common/bg-btn-prev.png">
+            </div>
+            <div class="page">
+                <p>
+                    1 / 4
+                </p>
+            </div>
+            <div class="btn-right" onclick="location.href='Video1.html'">
+                <img src="https://itzy.jype.com/Content/Pc/images/common/bg-btn-next.png">
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <ul class="contact">
+                <li>
+                    <img alt="ig" src="https://itzy.jype.com/Content/Pc/images/common/sns_instagram_b.png">
+                </li>
+                <li>
+                    <img alt="twitter" src="https://itzy.jype.com/Content/Pc/images/common/sns_twitter_b.png">
+                </li>
+                <li>
+                    <img alt="facebook" src="https://itzy.jype.com/Content/Pc/images/common/sns_facebook_b.png">
+                </li>
+                <li>
+                    <img alt="youtube" src="https://itzy.jype.com/Content/Pc/images/common/sns_youtube_b.png">
+                </li>
+                <li>
+                    <img alt="vlive" src="https://itzy.jype.com/Content/Pc/images/common/sns_vlive_b.png">
+                </li>
+                <li>
+                    <img alt="weibo" src="https://itzy.jype.com/Content/Pc/images/common/sns_weibo_b.png">
+                </li>
+                <li>
+                    <img alt="fans" src="https://itzy.jype.com/Content/Pc/images/common/sns_fans_b.png">
+                </li>
+                <li>
+                    <img alt="edm" src="https://itzy.jype.com/Content/Pc/images/common/sns_edm_b.png">
+        </ul>
+        <p class="copyright">
+            Copyright ©
+            <span style="color: #009be6;">JYP</span>
+            ENTERTAINMENT Co., Ltd. All rights reserved.
+        </p>
+    </footer>
+</body>
+<script src="navbar.js"></script>
+</html>
