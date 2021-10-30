@@ -274,7 +274,6 @@ button{
 .schedule_right{
     position: relative;
     display: inline-block;
-    top: -50px;
     width: 40%;
     height: auto;
     padding-left: 4%;
@@ -289,6 +288,7 @@ button{
     font-size: 13pt;
 }
 #selected_year{
+    width: 100px;
     opacity: 0;
 }
 .month{
@@ -317,6 +317,7 @@ button{
     padding: 25px 20px 20px 20px;
 }
 #event_icon{
+    margin-top: 50px;
     padding-left: 38%;
 }
 .event_icon{
@@ -329,7 +330,9 @@ button{
 }
 .event_itzy{
     background-color: #d64827;
-    padding: 4px 8px 4px 8px;
+    padding-top: 2px;
+    width: 31px;
+    height: 30px;
     opacity: 0.5;
     text-align: center;
     border-radius: 100%;
@@ -338,4 +341,10 @@ button{
     color: white;
     text-decoration: none;
 }
-
+.month_event{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.month_event a{
+    color: black;
+}
