@@ -82,6 +82,16 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     visibility: visible;
+    animation: fade 1s;
+}
+@keyframes fade {
+    from{ 
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+    
 }
 button{
     border: 0;
@@ -114,7 +124,15 @@ button{
     z-index: 100;
 }
 .new_album, .notice{
-    text-align: right;
+    text-align: right;  
+}
+.new_album{
+    animation: slide 1s;
+    transition: 5s;
+}
+.notice{
+    animation: slide 2s;
+    transition: 0.5s;
 }
 .link_album_1{
     color: white;
@@ -131,7 +149,9 @@ hr{
    background-color: white;
    border: 0.1vh solid white;
    width: 200px;
-   right: -37%
+   right: -37%;
+   animation: slide 1.5s;
+   transition: 0.5s;
 }
 .link_head_notice{
     color: white;
@@ -226,4 +246,14 @@ iframe{
 }
 #video{
     display: none;
+}
+@keyframes slide {
+    from{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
