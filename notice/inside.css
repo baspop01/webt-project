@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Open+Sans&family=Roboto:wght@700&display=swap');
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 101%;
+    height: 120px;
+}
+/*ส่วน notice*/
+.font{
+    font-size: 53.3333px;
+}
+.font p{
+    letter-spacing: 5px;
+}
+/* .text{
+    margin-right: 100em;
+} */
+.boardView_header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: auto;
+    /* position: relative; */
+    padding: 30px;
+    border-top: 2px solid #333;
+    border-bottom: 1px solid #ccc;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 7.5%;
+    background-color: #fcfcfd;
+    border-bottom: 1px solid #ccc;
+}
+.boarderunder1{
+    margin-top: 20px;
+    height: auto;
+    position: relative;
+    padding: 30px;
+}
+.boarderunder2{
+    margin-top: 20px;
+    height: auto;
+    position: relative;
+    padding: 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+button{
+    float: right;
+    padding: 12px 0;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 11pt;
+    margin-top: 20px;
+    background-color: white;
+}
+.distance{
+    width: 6em;
+    border: none;
+}
+.distance a{
+    color: #d64827;
+    text-decoration: none;
+}
+/* contact */
+.footer{
+    margin-top: 4em;
+    height: 60px;
+    margin-bottom: 2em;
+    font-size: medium;
+}
+.footer img{
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 0;
+}
+.footer a img:hover{
+    margin-left: 0.5em;
+}
+.social-media{
+    margin-left: 2.8em;
+}
+.copy{
+    margin-top: 2em;
+    margin-left: 70em;
+    font-size: 10px;
+}
+
+.right-line{
+    position: fixed;
+    width: 356px;
+    top: 400px;
+    text-align: center;
+    right: -75px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color: #333;
+    transform: rotate(90deg);
+    z-index: -10;
+}
+.line{
+    display: inline-block;
+    border: 1px solid black;
+    width: 140px;
+    margin: 0 20px;
+
+}
