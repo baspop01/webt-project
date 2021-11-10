@@ -195,7 +195,14 @@ button{
     transition: 0.5s;
     cursor:pointer;
 }
-.contact img:hover{
+.contact li{
+    transition: 0.5s;
+}
+
+.contact li:hover{
+    transform: translateX(10px);
+}
+.contact li:hover  ~ li{
     transform: translateX(10px);
 }
 
@@ -282,7 +289,14 @@ button{
     cursor:pointer;
 }
 
-.contact_menu img:hover{
+.contact_menu li{
+    transition: 0.5s;
+}
+
+.contact_menu li:hover{
+    transform: translateX(10px);
+}
+.contact_menu li:hover  ~ li{
     transform: translateX(10px);
 }
 
