@@ -223,11 +223,12 @@ hr{
 iframe{
     position: absolute;
     border: 5px solid black;
-    text-align: center;
     border-radius: 0.5vh;
     z-index: 100001;
-    top: 7%;
+    top: 8%;
     left: 12%;
+    margin-right: 13%;
+
 }
 .img_video_close{
     position: absolute;
@@ -256,4 +257,10 @@ iframe{
         opacity: 1;
         transform: translateX(0px);
     }
+}
+.contact li{
+    transition: 0.5s;
+}
+.contact li:hover  ~ li{
+    transform: translateX(10px);
 }
