@@ -46,6 +46,7 @@ body {
     height: 20px;
     display: block;
     float: left;
+    transition: 0.5s;
 }
 
 .contact img{  
@@ -56,9 +57,14 @@ body {
     transition: 0.5s;
     cursor:pointer;
 }
-.contact img:hover{
+
+.contact li:hover{
     transform: translateX(10px);
 }
+.contact li:hover  ~ li{
+    transform: translateX(10px);
+}
+
 button{
     border: 0;
     background-color: transparent;
@@ -198,9 +204,11 @@ h1{
 .texthov p{
     opacity: 1;
     pointer-events: none;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     line-height: 1.5em;
+    text-align: center;
+    position: relative;
 }
 .texthov{
     position: absolute;
@@ -266,6 +274,7 @@ h1{
     height: 20px;
     display: block;
     float: left;
+    transition: 0.5s;
 }
 .contact2 img{  
     height: 20px;
@@ -275,7 +284,11 @@ h1{
     transition: 0.5s;
     cursor:pointer;
 }
-.contact2 img:hover{
+
+.contact2 li:hover{
+    transform: translateX(10px);
+}
+.contact2 li:hover  ~ li{
     transform: translateX(10px);
 }
 .release{
@@ -331,9 +344,11 @@ h1{
     line-height: 30px;
     font-weight: bold;
 }
+
 .main{
     padding-bottom: 50px;
 }
+
 .list{
     font-size: 12pt;
     font-weight: bold;
