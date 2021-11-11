@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Prompt', sans-serif;
+    overflow-anchor: none;
 }
 #header{
     position: fixed;
@@ -144,7 +145,10 @@ button{
 }
 .container{
     margin-top: 10%;
+    animation: openslide 1s;
+    transition: 0.5s;
 }
+
 h1{
     text-align: center;
     letter-spacing: 5px;
@@ -186,6 +190,7 @@ h1{
 .imgcon img:hover {
     opacity: 0.5;
     display: block;
+    cursor: pointer;
 }
 .imgcon img:hover + .imghov{
     opacity: 1;
@@ -270,4 +275,15 @@ h1{
 }
 .contact2 li:hover  ~ li{
     transform: translateX(10px);
+}
+@keyframes openslide {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
